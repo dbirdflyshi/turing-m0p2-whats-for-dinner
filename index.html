@@ -4,11 +4,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
+    <script src="main.js"></script>
     <header>
       <p class = 'header-p'>What's for Dinner?</p>
       <button class = 'header-button'>ADD A RECIPE</button>
     </header>
-    
+    <main class = 'main-boxes'>
+      <article class= 'item-box-meal-list'>
+        <p class='radio-box-title'>What are you looking for?</p>
+        <form class = 'item-list'>
+          <input type = 'radio' id = 'side' value = 'side' name = 'food'/>
+            <label for = 'side'>Side</label><br><br>
+          <input type='radio' id='main-dish' value='main-dish'name = 'food'>
+            <label for='main-dish'>Main Dish</label><br><br>
+          <input type='radio' id='dessert' value='dessert'name = 'food'>
+            <label for='dessert'>Dessert</label><br><br>
+          <input type='radio' id='entire-meal' value='entire-meal'name = 'food'>
+            <label for='entire-meal'>Entire Meal</label><br>
+        </form>
+        <button class = item-list-button> Let's Cook! </button>
+        </article>
+      <article class = 'item-box-meal-name'>
+        <p class='meal-title hidden'>You should make:</p>
+        <img class = 'cookpot-img' src = '.\assets\cookpot.svg'>
+      </article>
+    </main>
   </body>
   <script type="text/javascript" src="main.js"></script>
 </html>
