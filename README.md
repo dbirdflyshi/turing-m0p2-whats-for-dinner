@@ -43,7 +43,7 @@ The spec for this project can be found [here](https://frontend.turing.io/project
 
 ## Deployed Page
 
-Visit the published page [here](https://dbirdflyshi.github.io/turing-m0p2-whats-for-dinner/)
+Visit the published page [here](https://dbirdflyshi.github.io/turing-m1p2-whats-for-dinner/)
 
 ## Set Up
 
